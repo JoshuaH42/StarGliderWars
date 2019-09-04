@@ -1,0 +1,1868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1179022869841996}
+  m_IsPrefabAsset: 1
+--- !u!1 &1079151567500606
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4123484046580832}
+  - component: {fileID: 114228445429441648}
+  m_Layer: 0
+  m_Name: PatrolBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1092443134314356
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4729238070823046}
+  - component: {fileID: 114752683614602840}
+  m_Layer: 0
+  m_Name: AttackBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1138334927985842
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4285782380180762}
+  - component: {fileID: 114994060840019992}
+  m_Layer: 0
+  m_Name: ObstacleAvoidanceBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1146646869578790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4092466936473722}
+  - component: {fileID: 114568639294876338}
+  m_Layer: 0
+  m_Name: EnemyGameAgent3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1179022869841996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4273027765340218}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1188948319043536
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789011932784558}
+  - component: {fileID: 114726515481186272}
+  m_Layer: 0
+  m_Name: FormationBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1192334740077546
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4577445092774018}
+  - component: {fileID: 114423581566600570}
+  m_Layer: 0
+  m_Name: AttackBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1204322050522558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4657683067145724}
+  - component: {fileID: 114775683347208912}
+  m_Layer: 0
+  m_Name: EnemyGameAgent2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1220255907013884
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4123154076111162}
+  - component: {fileID: 114921599315934012}
+  m_Layer: 0
+  m_Name: EvadeBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1313822590722758
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4621675774517484}
+  - component: {fileID: 114992803661780678}
+  m_Layer: 0
+  m_Name: AttackBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1328818605938642
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4599029609693242}
+  - component: {fileID: 114057522279890294}
+  m_Layer: 0
+  m_Name: Selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1338635588422554
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4503530371229440}
+  - component: {fileID: 114788504087562932}
+  m_Layer: 0
+  m_Name: ObstacleAvoidanceBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1435861445438894
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4226588796016402}
+  - component: {fileID: 114416833924190980}
+  m_Layer: 0
+  m_Name: EvadeBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1497943598329136
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4559587826565310}
+  - component: {fileID: 114839174985574144}
+  m_Layer: 0
+  m_Name: FormationBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1498998751084090
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4640846635517264}
+  - component: {fileID: 114441079019689190}
+  m_Layer: 0
+  m_Name: ObstacleAvoidanceBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1541756830805400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4130941904488926}
+  - component: {fileID: 114162880608163598}
+  m_Layer: 0
+  m_Name: EnemyGameAgent1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1721076242391156
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4593809066470242}
+  - component: {fileID: 114872037126542452}
+  m_Layer: 0
+  m_Name: CombatBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1817626275014330
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4932802463280000}
+  - component: {fileID: 114160875538374486}
+  m_Layer: 0
+  m_Name: PatrolBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1820498512264462
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4633604982620852}
+  - component: {fileID: 114685969408841642}
+  m_Layer: 0
+  m_Name: Selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1892125766377132
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4466771412894152}
+  - component: {fileID: 114699818546262890}
+  m_Layer: 0
+  m_Name: PatrolBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1921758055496824
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4067925863851198}
+  - component: {fileID: 114303578104687478}
+  m_Layer: 0
+  m_Name: EvadeBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1939912149784528
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4583176715662822}
+  - component: {fileID: 114821333398774578}
+  m_Layer: 0
+  m_Name: FormationBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1993132660225678
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4586357376165160}
+  - component: {fileID: 114556330199054530}
+  m_Layer: 0
+  m_Name: CombatBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1995089231465982
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4348075862767148}
+  - component: {fileID: 114246764613548358}
+  m_Layer: 0
+  m_Name: Selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1999082288136490
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4471701353923906}
+  - component: {fileID: 114187621828402618}
+  m_Layer: 0
+  m_Name: CombatBehaviour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4067925863851198
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921758055496824}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4593809066470242}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4092466936473722
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146646869578790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4348075862767148}
+  m_Father: {fileID: 4273027765340218}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4123154076111162
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220255907013884}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4586357376165160}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4123484046580832
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1079151567500606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4348075862767148}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4130941904488926
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541756830805400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4599029609693242}
+  m_Father: {fileID: 4273027765340218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4226588796016402
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435861445438894}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4471701353923906}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4273027765340218
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179022869841996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4130941904488926}
+  - {fileID: 4657683067145724}
+  - {fileID: 4092466936473722}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4285782380180762
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1138334927985842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4599029609693242}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4348075862767148
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995089231465982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4640846635517264}
+  - {fileID: 4593809066470242}
+  - {fileID: 4789011932784558}
+  - {fileID: 4123484046580832}
+  m_Father: {fileID: 4092466936473722}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4466771412894152
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1892125766377132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4599029609693242}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4471701353923906
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1999082288136490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4729238070823046}
+  - {fileID: 4226588796016402}
+  m_Father: {fileID: 4633604982620852}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4503530371229440
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338635588422554}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4633604982620852}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4559587826565310
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497943598329136}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 59.16438, y: 0.5381546, z: 47.757896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4633604982620852}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4577445092774018
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192334740077546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4593809066470242}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4583176715662822
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939912149784528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 59.16438, y: 0.5381546, z: 47.757896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4599029609693242}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4586357376165160
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993132660225678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4621675774517484}
+  - {fileID: 4123154076111162}
+  m_Father: {fileID: 4599029609693242}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4593809066470242
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721076242391156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4577445092774018}
+  - {fileID: 4067925863851198}
+  m_Father: {fileID: 4348075862767148}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4599029609693242
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328818605938642}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4285782380180762}
+  - {fileID: 4586357376165160}
+  - {fileID: 4583176715662822}
+  - {fileID: 4466771412894152}
+  m_Father: {fileID: 4130941904488926}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4621675774517484
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313822590722758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4586357376165160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4633604982620852
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820498512264462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4503530371229440}
+  - {fileID: 4471701353923906}
+  - {fileID: 4559587826565310}
+  - {fileID: 4932802463280000}
+  m_Father: {fileID: 4657683067145724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4640846635517264
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498998751084090}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4348075862767148}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4657683067145724
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204322050522558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4633604982620852}
+  m_Father: {fileID: 4273027765340218}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4729238070823046
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092443134314356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4471701353923906}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4789011932784558
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188948319043536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 59.16438, y: 0.5381546, z: 47.757896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4348075862767148}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4932802463280000
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817626275014330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4633604982620852}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114057522279890294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1328818605938642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18aefbaada54804c8551baa312d555a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 0
+  compatibleGameStates: 
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  behaviours:
+  - {fileID: 114994060840019992}
+  - {fileID: 114556330199054530}
+  - {fileID: 114821333398774578}
+  - {fileID: 114699818546262890}
+--- !u!114 &114160875538374486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817626275014330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be79b880e39f9ed4e910c801fecb1d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  patrolRoute: {fileID: 0}
+  maxPatrolTargetArrivalDistance: 50
+  patrolThrottle: 0.5
+--- !u!114 &114162880608163598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541756830805400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37624c68ade23084a912ea929dd48587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: Enemy1
+  startingVehicle: {fileID: 0}
+  onEnteredVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentEnteredVehicleEventHandler,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onExitedVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentExitedVehicleEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentDiedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onRevived:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentRevivedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114187621828402618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1999082288136490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6831c71912fe1468635a337b7544eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  attackBehaviour: {fileID: 114752683614602840}
+  minEngageDistance: 100
+  maxEngageDistance: 1000
+  minAttackTime: 10
+  maxAttackTime: 20
+  evadeBehaviour: {fileID: 114416833924190980}
+  minEvadeTime: 10
+  maxEvadeTime: 20
+--- !u!114 &114228445429441648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1079151567500606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be79b880e39f9ed4e910c801fecb1d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  patrolRoute: {fileID: 0}
+  maxPatrolTargetArrivalDistance: 50
+  patrolThrottle: 0.5
+--- !u!114 &114246764613548358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995089231465982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18aefbaada54804c8551baa312d555a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 0
+  compatibleGameStates: 
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  behaviours:
+  - {fileID: 114441079019689190}
+  - {fileID: 114872037126542452}
+  - {fileID: 114726515481186272}
+  - {fileID: 114228445429441648}
+--- !u!114 &114303578104687478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921758055496824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c505d65231f474e8a3c76fdf33879b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  maxEvadeAngleOffset: 90
+  weaveSpeed: 0.6
+  weaveRadius: 1.5
+  returnToCenterFactor: 0.0001
+--- !u!114 &114416833924190980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435861445438894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c505d65231f474e8a3c76fdf33879b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  maxEvadeAngleOffset: 90
+  weaveSpeed: 0.6
+  weaveRadius: 1.5
+  returnToCenterFactor: 0.0001
+--- !u!114 &114423581566600570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192334740077546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a64fc3318922a847bb8eee1b977b0a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  minPrimaryFiringPeriod: 1
+  maxPrimaryFiringPeriod: 3
+  minPrimaryFiringPause: 0.5
+  maxPrimaryFiringPause: 2
+  maxFiringAngle: 15
+  maxFiringDistance: 600
+  minMaxSecondaryFiringInterval: {x: 10, y: 25}
+--- !u!114 &114441079019689190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498998751084090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c824b4122c5aa24e8ade3366d072e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 360, y: 360, z: 360}
+  sphereCastRadius: 20
+  minMaxCollisionReactionTime: {x: 1, y: 3}
+  minMaxObstaclePassDistance: {x: 30, y: 100}
+  obstacleAvoidanceMargin: 50
+  useMemory: 1
+  maxObstacleDataInstances: 3
+  obstacleImportanceFadeRate: 0.3
+  obstacleMergeDistance: 30
+--- !u!114 &114556330199054530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993132660225678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6831c71912fe1468635a337b7544eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  attackBehaviour: {fileID: 114992803661780678}
+  minEngageDistance: 100
+  maxEngageDistance: 1000
+  minAttackTime: 10
+  maxAttackTime: 20
+  evadeBehaviour: {fileID: 114921599315934012}
+  minEvadeTime: 5
+  maxEvadeTime: 10
+--- !u!114 &114568639294876338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146646869578790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37624c68ade23084a912ea929dd48587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: Enemy3
+  startingVehicle: {fileID: 0}
+  onEnteredVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentEnteredVehicleEventHandler,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onExitedVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentExitedVehicleEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentDiedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onRevived:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentRevivedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114685969408841642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820498512264462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18aefbaada54804c8551baa312d555a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 0
+  compatibleGameStates: 
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  behaviours:
+  - {fileID: 114788504087562932}
+  - {fileID: 114187621828402618}
+  - {fileID: 114839174985574144}
+  - {fileID: 114160875538374486}
+--- !u!114 &114699818546262890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1892125766377132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be79b880e39f9ed4e910c801fecb1d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  patrolRoute: {fileID: 0}
+  maxPatrolTargetArrivalDistance: 50
+  patrolThrottle: 0.5
+--- !u!114 &114726515481186272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188948319043536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c153a68472eaa3d44a89937344d26e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 0, y: 0, z: 0}
+  formationTarget: {fileID: 0}
+  formationOffset: {x: 20, y: 0, z: -20}
+  turnTowardDistance: 50
+--- !u!114 &114752683614602840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092443134314356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a64fc3318922a847bb8eee1b977b0a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  minPrimaryFiringPeriod: 1
+  maxPrimaryFiringPeriod: 3
+  minPrimaryFiringPause: 0.5
+  maxPrimaryFiringPause: 2
+  maxFiringAngle: 15
+  maxFiringDistance: 600
+  minMaxSecondaryFiringInterval: {x: 10, y: 25}
+--- !u!114 &114775683347208912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204322050522558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37624c68ade23084a912ea929dd48587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: Enemy2
+  startingVehicle: {fileID: 0}
+  onEnteredVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentEnteredVehicleEventHandler,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onExitedVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentExitedVehicleEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentDiedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onRevived:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentRevivedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114788504087562932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338635588422554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c824b4122c5aa24e8ade3366d072e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 360, y: 360, z: 360}
+  sphereCastRadius: 20
+  minMaxCollisionReactionTime: {x: 1, y: 3}
+  minMaxObstaclePassDistance: {x: 30, y: 100}
+  obstacleAvoidanceMargin: 50
+  useMemory: 1
+  maxObstacleDataInstances: 3
+  obstacleImportanceFadeRate: 0.3
+  obstacleMergeDistance: 30
+--- !u!114 &114821333398774578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939912149784528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c153a68472eaa3d44a89937344d26e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 0, y: 0, z: 0}
+  formationTarget: {fileID: 0}
+  formationOffset: {x: 0, y: 0, z: 0}
+  turnTowardDistance: 50
+--- !u!114 &114839174985574144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497943598329136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c153a68472eaa3d44a89937344d26e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 0, y: 0, z: 0}
+  formationTarget: {fileID: 0}
+  formationOffset: {x: -20, y: 0, z: -20}
+  turnTowardDistance: 50
+--- !u!114 &114872037126542452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721076242391156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6831c71912fe1468635a337b7544eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  attackBehaviour: {fileID: 114423581566600570}
+  minEngageDistance: 100
+  maxEngageDistance: 1000
+  minAttackTime: 10
+  maxAttackTime: 20
+  evadeBehaviour: {fileID: 114303578104687478}
+  minEvadeTime: 10
+  maxEvadeTime: 20
+--- !u!114 &114921599315934012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220255907013884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c505d65231f474e8a3c76fdf33879b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  maxEvadeAngleOffset: 90
+  weaveSpeed: 0.6
+  weaveRadius: 1.5
+  returnToCenterFactor: 0.0001
+--- !u!114 &114992803661780678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313822590722758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a64fc3318922a847bb8eee1b977b0a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.02
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.02
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.02
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 45, y: 360, z: 45}
+  minPrimaryFiringPeriod: 1
+  maxPrimaryFiringPeriod: 3
+  minPrimaryFiringPause: 0.5
+  maxPrimaryFiringPause: 2
+  maxFiringAngle: 15
+  maxFiringDistance: 600
+  minMaxSecondaryFiringInterval: {x: 10, y: 25}
+--- !u!114 &114994060840019992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1138334927985842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c824b4122c5aa24e8ade3366d072e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 0}
+  updateEveryFrame: 0
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+  maxRotationAngles: {x: 360, y: 360, z: 360}
+  sphereCastRadius: 20
+  minMaxCollisionReactionTime: {x: 1, y: 3}
+  minMaxObstaclePassDistance: {x: 30, y: 100}
+  obstacleAvoidanceMargin: 50
+  useMemory: 1
+  maxObstacleDataInstances: 3
+  obstacleImportanceFadeRate: 0.3
+  obstacleMergeDistance: 30

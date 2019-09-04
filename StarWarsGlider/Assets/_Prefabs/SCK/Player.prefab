@@ -1,0 +1,1282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1822079535642860}
+  m_IsPrefabAsset: 1
+--- !u!1 &1042386988975658
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4969312013848144}
+  - component: {fileID: 114424851522121230}
+  m_Layer: 0
+  m_Name: TargetingControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1064311315159596
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4261412570640060}
+  - component: {fileID: 114222657673912850}
+  m_Layer: 0
+  m_Name: PowerManagementMenuControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1073082353633434
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4731465131245026}
+  - component: {fileID: 114532624797136174}
+  m_Layer: 0
+  m_Name: CameraViewControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1094748974866144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4273482171681732}
+  m_Layer: 0
+  m_Name: SpaceshipControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1137131579276132
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4730918485854486}
+  - component: {fileID: 114077373947467156}
+  m_Layer: 0
+  m_Name: PauseMenuControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1147156982900406
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4220036718522708}
+  - component: {fileID: 114834527064587582}
+  m_Layer: 0
+  m_Name: TriggerablesControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1170688506747400
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4474148822695332}
+  - component: {fileID: 114136670114725878}
+  m_Layer: 0
+  m_Name: ShipLanderControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1270054649531504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4410702841142212}
+  m_Layer: 0
+  m_Name: MenuControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1354919082141524
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4441362482305486}
+  - component: {fileID: 114439534488343548}
+  m_Layer: 0
+  m_Name: CapitalShipControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1479232704820146
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4860414467111880}
+  - component: {fileID: 114786248645021220}
+  m_Layer: 0
+  m_Name: GimballedVehicleControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1673382466334440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4613979653539862}
+  - component: {fileID: 114605066353456510}
+  m_Layer: 0
+  m_Name: CharacterControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1680086633742412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4680491572428040}
+  m_Layer: 0
+  m_Name: GeneralVehicleControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1822079535642860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4607627957222808}
+  - component: {fileID: 114282944772324064}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1824867325642358
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4098956790226964}
+  - component: {fileID: 114868527860586118}
+  m_Layer: 0
+  m_Name: SpaceFighterControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1847777233654156
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4954974925558740}
+  - component: {fileID: 114513260659127366}
+  m_Layer: 0
+  m_Name: VehicleEnterExitControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1851446551350564
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4291967035818480}
+  - component: {fileID: 114890056195869550}
+  m_Layer: 0
+  m_Name: TriggerGroupsMenuControls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4098956790226964
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824867325642358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4273482171681732}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4220036718522708
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147156982900406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4680491572428040}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4261412570640060
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064311315159596}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4410702841142212}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4273482171681732
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094748974866144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4098956790226964}
+  - {fileID: 4474148822695332}
+  - {fileID: 4441362482305486}
+  m_Father: {fileID: 4607627957222808}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4291967035818480
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851446551350564}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4410702841142212}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4410702841142212
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270054649531504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4730918485854486}
+  - {fileID: 4291967035818480}
+  - {fileID: 4261412570640060}
+  m_Father: {fileID: 4607627957222808}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4441362482305486
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1354919082141524}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4273482171681732}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4474148822695332
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170688506747400}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4273482171681732}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4607627957222808
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1822079535642860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4613979653539862}
+  - {fileID: 4273482171681732}
+  - {fileID: 4410702841142212}
+  - {fileID: 4680491572428040}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4613979653539862
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673382466334440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4607627957222808}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4680491572428040
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1680086633742412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4969312013848144}
+  - {fileID: 4860414467111880}
+  - {fileID: 4731465131245026}
+  - {fileID: 4954974925558740}
+  - {fileID: 4220036718522708}
+  m_Father: {fileID: 4607627957222808}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4730918485854486
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1137131579276132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4410702841142212}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4731465131245026
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1073082353633434}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4680491572428040}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4860414467111880
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479232704820146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4680491572428040}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4954974925558740
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847777233654156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4680491572428040}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4969312013848144
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042386988975658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 535.1387, y: 412.31146, z: 0.26428223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4680491572428040}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114077373947467156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1137131579276132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc172a4170be99489107c4215540702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputItems:
+  - customInput:
+      group: Menu Controls
+      action: Pause Menu
+      inputType: 0
+      key: 27
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: EnterGameState
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Pause
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114136670114725878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170688506747400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ef4e8a1777b5b4dac915c64b25f9bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  landingInput:
+    group: General Controls
+    action: Land/Take Off
+    inputType: 0
+    key: 108
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+--- !u!114 &114222657673912850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064311315159596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc172a4170be99489107c4215540702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputItems:
+  - customInput:
+      group: Power Management Menu
+      action: Open Power Management Menu
+      inputType: 0
+      key: 112
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: EnterGameState
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PowerManagementMenu
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - customInput:
+      group: Power Management Menu
+      action: Move Power Ball Horizontally
+      inputType: 2
+      key: 0
+      mouseButton: 0
+      getAxisRaw: 1
+      axis: PowerBallMoveHorizontal
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: MovePowerBallHorizontally
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - customInput:
+      group: Power Management Menu
+      action: Move Power Ball Vertically
+      inputType: 2
+      key: 0
+      mouseButton: 0
+      getAxisRaw: 1
+      axis: PowerBallMoveVertical
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: MovePowerBallVertically
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114282944772324064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1822079535642860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37624c68ade23084a912ea929dd48587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: Player
+  startingVehicle: {fileID: 0}
+  onEnteredVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentEnteredVehicleEventHandler,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onExitedVehicle:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentExitedVehicleEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentDiedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onRevived:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VSX.UniversalVehicleCombat.OnGameAgentRevivedEventHandler, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114424851522121230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042386988975658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e5fb50e1b9b3c499a814a582b7b093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  nextTargetInput:
+    group: Target Selection
+    action: Next
+    inputType: 0
+    key: 46
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  previousTargetInput:
+    group: Target Selection
+    action: Previous
+    inputType: 0
+    key: 44
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  nearestTargetInput:
+    group: Target Selection
+    action: Nearest
+    inputType: 0
+    key: 110
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  frontTargetInput:
+    group: Target Selection
+    action: Front
+    inputType: 0
+    key: 109
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+--- !u!114 &114439534488343548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1354919082141524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b36234bfc40a5f4092268de6d7cc468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 1
+  compatibleVehicleClasses: 03000000
+  yawInput:
+    group: Capital Ships
+    action: Rotate Horizontally
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Roll
+  throttleSensitivity: {x: 1, y: 1, z: 0.5}
+  throttleUpInput:
+    group: Capital Ships
+    action: Throttle Up
+    inputType: 0
+    key: 122
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  throttleDownInput:
+    group: Capital Ships
+    action: Throttle Down
+    inputType: 0
+    key: 120
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  strafeVerticalInput:
+    group: Capital Ships
+    action: Strafe Vertical
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Strafe Vertical
+  strafeHorizontalInput:
+    group: Capital Ships
+    action: Strafe Horizontal
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Strafe Horizontal
+  boostInput:
+    group: Capital Ships
+    action: Boost
+    inputType: 0
+    key: 9
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  shipPIDController:
+    steeringPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+    movementPIDController:
+      controllerXAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerYAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+      controllerZAxis:
+        proportionalCoefficient: 0.01
+        integralCoefficient: 0
+        derivativeCoefficient: 0
+        integralInfluence: 1
+--- !u!114 &114513260659127366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847777233654156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81d435a2598b3c45b81c2605aef72e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  gameAgent: {fileID: 114282944772324064}
+  enterExitInput:
+    group: General Vehicle Controls
+    action: Enter/Exit Vehicle
+    inputType: 0
+    key: 102
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+--- !u!114 &114532624797136174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1073082353633434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c2d52321b010744b704241db717add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  inputItems:
+  - customInput:
+      group: Camera Controls
+      action: Interior View
+      inputType: 0
+      key: 49
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: SetView
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - customInput:
+      group: Camera Controls
+      action: Exterior View
+      inputType: 0
+      key: 50
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: SetView
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114605066353456510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673382466334440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31b77b54695e0a469debf85b3c6c495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  walkForwardBackwardAxisInput:
+    group: First Person Character
+    action: Walk
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Vertical
+  strafeHorizontalAxisInput:
+    group: First Person Character
+    action: Strafe
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Horizontal
+  runInput:
+    group: First Person Character
+    action: Run
+    inputType: 0
+    key: 304
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  jumpInput:
+    group: First Person Character
+    action: Jump
+    inputType: 0
+    key: 32
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+--- !u!114 &114786248645021220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479232704820146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd0556b104269a4e97e8ef6a5603a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 0
+  compatibleGameStates: 
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  gimbalRotationSpeed: 100
+  horizontalRotationInputAxis:
+    group: Gimballed Vehicles
+    action: Look Horizontal
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Mouse X
+  verticalRotationInputAxis:
+    group: Gimballed Vehicles
+    action: Look Vertical
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Mouse Y
+--- !u!114 &114834527064587582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147156982900406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b8ca3ba93cb4e46bea992c2f269e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 0
+  compatibleVehicleClasses: 
+  triggerInputs:
+  - triggerIndex: 0
+    customInput:
+      group: Weapons
+      action: Fire Primary Weapons
+      inputType: 1
+      key: 0
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+  - triggerIndex: 1
+    customInput:
+      group: Weapons
+      action: Fire Secondary Weapons
+      inputType: 1
+      key: 0
+      mouseButton: 1
+      getAxisRaw: 0
+      axis: 
+--- !u!114 &114868527860586118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824867325642358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1444117bfd2e447af0d8c4f835bd4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingVehicle: {fileID: 0}
+  specifyCompatibleGameStates: 1
+  compatibleGameStates: 00000000
+  specifyCompatibleVehicleClasses: 1
+  compatibleVehicleClasses: 00000000
+  linkYawAndRoll: 0
+  yawRollRatio: 1
+  mouseSteeringEnabled: 1
+  mouseVerticalInverted: 0
+  mousePitchSensitivity: 1
+  mouseYawSensitivity: 1
+  mouseRollSensitivity: 1
+  mouseDeadRadius: 0
+  keyboardVerticalInverted: 0
+  pitchAxisInput:
+    group: Flight Controls
+    action: Pitch
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Vertical
+  yawAxisInput:
+    group: Flight Controls
+    action: Yaw
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Horizontal
+  rollAxisInput:
+    group: Flight Controls
+    action: Roll
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Roll
+  throttleUpInput:
+    group: Flight Controls
+    action: Throttle Up
+    inputType: 0
+    key: 122
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  throttleDownInput:
+    group: Flight Controls
+    action: Throttle Down
+    inputType: 0
+    key: 120
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+  strafeVerticalInput:
+    group: Flight Controls
+    action: Strafe Vertical
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Strafe Vertical
+  strafeHorizontalInput:
+    group: Flight Controls
+    action: Strafe Horizontal
+    inputType: 2
+    key: 0
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: Strafe Horizontal
+  throttleSensitivity: {x: 1, y: 1, z: 1}
+  boostInput:
+    group: Flight Controls
+    action: Boost
+    inputType: 0
+    key: 9
+    mouseButton: 0
+    getAxisRaw: 0
+    axis: 
+--- !u!114 &114890056195869550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851446551350564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc172a4170be99489107c4215540702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputItems:
+  - customInput:
+      group: Trigger Groups Menu
+      action: Open Trigger Groups Menu
+      inputType: 0
+      key: 116
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: EnterGameState
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: TriggerGroupsMenu
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - customInput:
+      group: Trigger Groups Menu
+      action: Set Trigger Value 0
+      inputType: 0
+      key: 48
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: SetTriggerGroupTriggerValue
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - customInput:
+      group: Trigger Groups Menu
+      action: Set Trigger Value 1
+      inputType: 0
+      key: 49
+      mouseButton: 0
+      getAxisRaw: 0
+      axis: 
+    onInputDown:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: SetTriggerGroupTriggerValue
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputDownEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputUp:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputUpEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onInputAxis:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VSX.UniversalVehicleCombat.OnInputAxisEventHandler, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
